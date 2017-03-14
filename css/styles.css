@@ -1,7 +1,7 @@
-.image {
+/*.image {
   position: relative;
   width: 100%;
-}
+}*/
 
 /*h1, p {
   position: absolute;
@@ -26,3 +26,15 @@ span {
   /*background: rgba(0, 0, 0, 0.7);
   padding: 10px;
 }*/*/
+img {
+  position: relative;
+  left: 100mm;
+  top: 100mm;
+  z-index: -1;
+}
+p {
+  position: relative;
+  left: 100mm;
+  top: 100mm;
+  z-index: 1;
+}
