@@ -1,40 +1,35 @@
-/*.image {
-  position: relative;
-  width: 100%;
-}*/
-
-/*h1, p {
-  position: absolute;
-  top: 200px;
-  left: 0;
+body {
+    background-image: url(../img/sea.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200%;
+    opacity: .8;
+    font-family: fantasy;
+}
+img {
+  border-radius: 40%;
+  display: block;
+  margin: auto;
   width: 100%;
 }
-
-span {
-  color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif;
-  letter-spacing: -1px;
-  background: rgb(0, 0, 0); /* fallback color */
-  /*background: rgba(0, 0, 0, 0.7);
-  padding: 10px;
-}*/*/
-/*p span {
-  color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif;
-  letter-spacing: -1px;
-  background: rgb(0, 0, 0); /* fallback color */
-  /*background: rgba(0, 0, 0, 0.7);
-  padding: 10px;
-}*/*/
-img {
-  position: relative;
-  left: 100mm;
-  top: 100mm;
-  z-index: -1;
+h1 {
+  text-align: center;
+  color: #522b77;
+  font-size: 36px;
+  font-weight: bolder;
 }
 p {
-  position: relative;
-  left: 100mm;
-  top: 100mm;
-  z-index: 1;
+  text-align: center;
+  color: #522b77;
+  font-weight: bolder;
+}
+a:link {
+  text-decoration: none;
+  text-align: center;
+  color: #522b77;
+  font-size: 30px;
+  font-weight: bolder;
+}
+a:visited {
+  color: #3a414f;
 }
