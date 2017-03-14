@@ -33,3 +33,11 @@ a:link {
 a:visited {
   color: #3a414f;
 }
+.image {
+  background-image: url(../img/resort.jpg);
+  height: 100mm;
+  background-repeat: no-repeat;
+  display: block;
+  margin: auto;
+  width: 100%
+}
