@@ -5,13 +5,16 @@ body {
     background-size: 200%;
     opacity: .8;
     font-family: fantasy;
+    text-align: center;
+    color: #522b77;
+    font-size: 30px;
 }
-img {
+/*img {
   border-radius: 40%;
   display: block;
   margin: auto;
   width: 100%;
-}
+}*/
 h1 {
   text-align: center;
   color: #522b77;
@@ -40,4 +43,11 @@ a:visited {
   display: block;
   margin: auto;
   width: 100%
+}
+#header {
+  text-align: center;
+  line-height: 450%;
+}
+#description {
+  line-height: 30%;
 }
