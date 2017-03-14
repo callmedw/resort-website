@@ -9,12 +9,10 @@ body {
     color: #522b77;
     font-size: 30px;
 }
-/*img {
-  border-radius: 40%;
-  display: block;
-  margin: auto;
-  width: 100%;
-}*/
+img {
+  height: 311px;
+  width: 500px;
+}
 h1 {
   text-align: center;
   color: #522b77;
